@@ -1,0 +1,108 @@
+{
+  "period": [
+    {
+      "startDate": "2021-07-01",
+      "finishDate": "2021-07-22",
+      "id": 1
+    }
+  ],
+  "regularincome": [
+    {
+      "text": "fdsfdf",
+      "summ": "1000",
+      "date": "11-07-2021",
+      "id": "11"
+    },
+    {
+      "text": "ddgffg",
+      "summ": "1000",
+      "date": "11-07-2021",
+      "id": "42U"
+    },
+    {
+      "text": "ddgffg",
+      "summ": "1000",
+      "date": "11-07-2021",
+      "id": "53K"
+    },
+    {
+      "text": "ddgffg",
+      "summ": "1000",
+      "date": "11-07-2021",
+      "id": "44O"
+    }
+  ],
+  "variableincome": [
+    {
+      "text": "sdff",
+      "summ": "444",
+      "date": "5-07-2021",
+      "id": "17i"
+    }
+  ],
+  "obligatoryexpenses": [
+    {
+      "text": "sdffdf",
+      "summ": "555",
+      "date": "6-07-2021",
+      "id": "25h"
+    }
+  ],
+  "optionalexpenses": [
+    {
+      "text": "sdfdf",
+      "summ": "444",
+      "date": "6-07-2021",
+      "id": "51H"
+    }
+  ],
+  "piggybanc": [
+    {
+      "text": "asasdd",
+      "summ": "100",
+      "date": "9-07-2021",
+      "id": "48D",
+      "bank": 100,
+      "widthSumm": 100
+    },
+    {
+      "text": "szzxc",
+      "summ": "100",
+      "date": "9-07-2021",
+      "id": "38E",
+      "bank": 100,
+      "widthSumm": 100
+    },
+    {
+      "text": "zxxcxc",
+      "summ": "100",
+      "date": "9-07-2021",
+      "id": "33b",
+      "bank": 100,
+      "widthSumm": 100
+    },
+    {
+      "text": "ыфыв",
+      "summ": "400",
+      "date": "9-07-2021",
+      "id": "51H",
+      "bank": 0
+    },
+    {
+      "text": "fdgfg",
+      "summ": "300",
+      "date": "11-07-2021",
+      "id": "26j",
+      "bank": 200,
+      "widthSumm": 66.66666666666666
+    },
+    {
+      "text": "rrtrt",
+      "summ": "1000",
+      "date": "11-07-2021",
+      "id": "17i",
+      "bank": 0
+    }
+  ],
+  "info": []
+}

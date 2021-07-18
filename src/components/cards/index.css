@@ -1,0 +1,423 @@
+.add_item {
+    background: linear-gradient(#beebeb 50%, #409191);
+    border-radius: 10px;
+    border: 1px solid #2e7575;
+    font-size: 14px;
+    padding: 1.5% 3%;
+    font-weight: bold;
+    margin: 3%;
+    }
+    
+    .add_item:active {
+        background: linear-gradient(#409191 50%, #beebeb);
+    }
+
+
+.wrapper-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: start;  
+    width: 83%;
+    border-bottom: 1px dotted rgb(190, 193, 194);
+    }
+
+.date {
+    width: 12%;
+    font-size: 12px;
+    word-break: break-all;
+    border-right: 1px dotted rgb(190, 193, 194);
+    padding: 2% 1%;
+    }
+   
+.text {
+    width: 55%;
+    white-space: normal; 
+    word-break: break-all;
+    border-right: 1px dotted rgb(190, 193, 194);
+    padding: 2% 1%;
+    }
+
+.summ {
+    width: 24%;
+    display: inline-block;
+    word-break: break-all;
+    padding: 2% 1%;
+    }
+
+    .date-bank {
+        width: 12%;
+        padding: 2% 1%;
+        font-size: 12px;
+        word-break: break-all;
+        border-right: 1px dotted rgb(190, 193, 194);
+        }
+    
+    .text-bank {
+        width: 47.5%; 
+        word-break: break-all;
+        border-right: 1px dotted rgb(190, 193, 194);
+        padding: 2% 1%;
+    }
+
+    .summ-bank {
+        width: 13%;
+        word-break: break-all;
+        padding: 2% 1%;
+        border-right: 1px dotted rgb(190, 193, 194);
+    }
+
+.bank {
+    width: 15%;
+    padding: 2% 1%;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    }
+ 
+div.inf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    align-items: stretch;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.one {
+    padding: 1%;
+    width: 10%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.two {
+    padding: 1%;
+    width: 44%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.two1 {
+    padding: 1%;
+    width: 10%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;   
+}
+
+.three {
+    padding: 1%;
+    width: 38.5%;
+    background: #ccc;
+    border-radius: 5px;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+}
+
+.one-bank {
+    padding: 1%;
+    width: 10%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.two-bank {
+    padding: 1%;
+    width: 38%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.two1-bank {
+    padding: 1%;
+    width: 10%;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.three-bank {
+    padding: 1%;
+    width: 32%;
+    background: #ccc;
+    display: flex;
+    border-radius: 5px;
+    border-right: 1px solid rgb(119, 122, 122);
+    border-left: 1px solid rgb(119, 122, 122);
+}
+
+.btn-redact {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5%;
+    background-image: url('./redact.png');
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+
+.btn-delete {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5%;
+    background-image: url('./delete.png');
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+
+.btn-banc {
+    width: 30px;
+    height: 30px;
+    background-image: url('./bank.png');
+    background-size: cover;
+    border-radius: 7px;
+    margin-bottom: 12px;  
+}
+
+ol {
+    padding: 10px 5px;
+    background: rgb(247, 250, 250);
+    border-radius: 5px;
+    width: 98%; 
+}
+
+.goal {
+    color: red;
+    padding-left: 3px;
+}
+
+@media only screen and (max-width: 320px) { 
+    .add_item {
+        font-weight: normal;
+        font-size: 12px;
+        } 
+
+    div.inf {
+            font-size: 12px;
+            font-weight: normal;
+        }
+        ol {
+            width: 97%;
+        }
+        .btn-delete, .btn-banc, .btn-redact {
+            width: 20px;
+            height: 20px; 
+        }
+        .wrapper-item {
+            width: 77%;
+            font-size: 12px;
+            }
+       
+        .two1-bank {
+            width: 12%;
+        }
+
+        .two-bank {
+            width: 32%;
+        }
+
+        .three-bank {
+            width: 35%;
+        }
+        .summ-bank {
+            width: 17%;
+            margin-right: 0;
+        }
+
+        .bank {
+            width: 12%;
+            margin-left: 2%;
+        }
+
+        .goal {
+            font-size: 11px;
+        }
+
+         .percent {
+            font-size: 11px;
+        }
+
+        .two {
+            width: 38%;
+        }
+
+        .three {
+            width: 44%;
+        }
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 569px) {
+    .wrapper-item {
+        width: 79%;
+    }
+    .goal {
+        font-size: 12px;
+    }
+    ol {
+        width: 97%;
+    }
+    .add_item {
+        font-weight: normal;
+        } 
+
+    div.inf {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 20px;
+        height: 20px;  
+    }
+
+    .infoWrapper div {
+        font-size: 16px;
+    }
+
+    .two1-bank {
+        width: 12%;
+    }
+
+    .two-bank {
+        width: 35%;
+    }
+
+    .three-bank {
+        width: 32%;
+    }
+
+    .summ-bank {
+        width: 17%;
+        margin-right: 0;
+    }
+
+    .bank {
+        width: 13%;
+        margin-left: 1%;
+    }
+
+    .text-bank {
+        width: 47%; 
+    }
+
+    .two {
+        width: 40%;
+    }
+
+    .three {
+        width: 41%;
+    } 
+    .date {
+        width: 13%;
+    }
+
+    .text {
+        width: 52%;
+    }
+}
+@media only screen and (min-device-width : 570px) and (max-device-width : 769px) {
+    .wrapper-item {
+        width: 80%;
+    }
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 20px;
+        height: 20px;  
+    }
+    .text-bank {
+        width: 50%;
+    }
+    .summ-bank {
+        width: 13%;
+    }
+}
+@media only screen and (min-device-width : 770px) and (max-device-width : 1024px) {
+    .add_item {
+        font-weight: normal;
+    }
+
+    ol {
+        width: 97%;
+    }
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 20px;
+        height: 20px; 
+    }
+
+    .infoWrapper div {
+        font-size: 16px;
+    }
+
+    .wrapper-item {
+        width: 79%;
+    }
+
+    .two1-bank {
+        width: 12%;
+    }
+
+    .two-bank {
+        width: 33%;
+    }
+
+    .three-bank {
+        width: 34.5%;
+    }
+    .summ-bank {
+        width: 17%;
+        margin-right: 0;
+    }
+
+    .bank {
+        width: 13%;
+        margin-left: 1%;
+    }
+
+    .text-bank {
+        width: 44%; 
+
+        }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1280px) {
+
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 25px;
+        height: 25px; 
+    }
+}
+
+@media (max-width: 1140px) {
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 20px;
+        height: 20px; 
+    }
+  }
+
+  @media (max-width: 900px) {
+    .btn-delete, .btn-banc, .btn-redact {
+        width: 20px;
+        height: 20px; 
+    }
+
+    
+  }

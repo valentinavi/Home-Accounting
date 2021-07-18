@@ -1,0 +1,136 @@
+
+.container {
+    max-width: 1900px;
+    height: auto;
+    background-image:  url("./bg1.png");
+    position: relative;
+    z-index: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; 
+  }
+  
+  .col-6 {
+    background: #fff;
+    border-radius: 18px;
+    margin-bottom: 1%;
+    margin: 0.5%;
+    width: 49%;
+    padding: 0px;
+  }
+
+  .col-6 > div {
+    margin: 0 1% 1% 1%;
+}
+
+  h1 {
+    font-size: 22px;
+    color: #404342;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    background: #95d4a5;
+    border-radius: 15px 15px 0px 0px;
+    padding: 1%;
+    font-family: arial, sans-serif;
+  }
+
+  h2 {
+    padding: 1%;
+    margin-bottom: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #beebeb;
+  }
+
+  .col {
+    width: 100%;
+    margin-top: 0.5%;
+  }
+
+
+  button:hover {
+    box-shadow: 3px 3px 3px #242929;
+}
+ 
+
+
+@media only screen and (max-width: 320px) { 
+  h1 {
+    font-size: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  margin-top: 5px;
+}
+.col-6 { 
+    width: 100%; 
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 769px) {
+ 
+  body {
+    min-width: 322px;
+    max-width: 768px;
+    width: 100%;
+    font-size: 14px;
+    margin: 0px;
+} 
+
+h1 {
+  font-size: 17px;
+}
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 786px; 
+    min-width: 321px;
+    margin-top: 5px;
+  }
+
+  .col-6 { 
+    width: 100%; 
+    margin: 0;
+  }
+
+  .infoWrapper div {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width : 770px) and (max-device-width : 1024px) {
+  h1 {
+      font-size: 17px;
+  }
+    
+  }
+
+  @media (max-width: 900px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .col-6 { 
+      width: 100%; 
+      margin: 0;
+    }
+
+    .col {
+      margin-top: 1%;
+      margin-bottom: 1%;
+    }
+  }

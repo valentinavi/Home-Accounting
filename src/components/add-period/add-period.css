@@ -1,0 +1,20 @@
+.btn-add-period {
+    width: 40%;
+    height: 3em;
+    border-radius: 10px;
+    font-weight: bold;
+    background: linear-gradient(#95d4a5 50%, #65ab70);
+    color: #404342;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-add-period:active {
+    background: linear-gradient(#65ab70 50%, #95d4a5);
+}
+
+
+
+
+
